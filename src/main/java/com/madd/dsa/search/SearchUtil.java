@@ -2,6 +2,7 @@ package com.madd.dsa.search;
 
 public class SearchUtil {
     public static int linearSearch(int[] intArr, int target) {
+        System.out.println("linearSearch start");
         // Check each element one by one till the target is found else return -1
         for (int i = 0; i < intArr.length; i++) {
             if (target == intArr[i]) {
