@@ -1,5 +1,7 @@
 package com.madd.dsa.sort;
 
+import com.madd.dsa.model.Node;
+
 public class Sortutils {
 
     public static int[] selectionSort(int[] input) {
@@ -73,4 +75,24 @@ public class Sortutils {
         System.out.println(String.format("Loop Count is %d", loopCount));
         return input;
     }
+
+//    public static Node heepify(int input, Node root) {
+//        // Create a node with input
+//        Node node = new Node(input);
+//        // If there is only one element in the tree.
+//        if (root.isSingleNodeTree()) {
+//            if (root.getValue() > node.getValue()) {
+//                root.setLeft(node);
+//                return root;
+//            } else {
+//                node.setLeft(root);
+//                return node;
+//            }
+//        }
+//        while (root != null) {
+//
+//        }
+//    }
+
+
 }
